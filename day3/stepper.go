@@ -36,7 +36,7 @@ func main() {
 	var firstResult int
 	for _, intersection := range intersections {
 		currentFirstResult := calculateManhattan(intersection.X, intersection.Y)
-		if firstResult == 0 || currentFirstResult < firstResult{
+		if firstResult == 0 || currentFirstResult < firstResult {
 			firstResult = currentFirstResult
 		}
 	}
